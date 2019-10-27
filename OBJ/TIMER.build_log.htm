@@ -1,0 +1,149 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  F:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\工程文件\小车1\USER\TIMER.uvprojx
+Project File Date:  07/18/2019
+
+<h2>Output:</h2>
+Build target 'TIMER'
+compiling main.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+main.c(48): warning:  #128-D: loop is not reachable
+        while(1){
+main.c(81): warning:  #111-D: statement is unreachable
+        return 0;
+main.c(191): warning:  #1-D: last line of file ends without a newline
+  */
+main.c: 4 warnings, 1 error
+compiling stm32f10x_it.c...
+stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+stm32f10x_it.c: 1 warning, 1 error
+compiling system_stm32f10x.c...
+stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+system_stm32f10x.c: 1 warning, 1 error
+compiling led.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\HARDWARE\LED\led.c: 1 warning, 1 error
+compiling key.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\HARDWARE\KEY\key.c: 1 warning, 1 error
+compiling timer.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\HARDWARE\TIMER\timer.c: 1 warning, 1 error
+compiling exti.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\HARDWARE\EXTI\exti.c: 1 warning, 1 error
+compiling TCS3200.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\HARDWARE\TCS3200\TCS3200.c: 1 warning, 1 error
+compiling delay.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling sys.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\SYSTEM\sys\sys.c: 1 warning, 1 error
+compiling usart.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\SYSTEM\usart\usart.c: 1 warning, 1 error
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\STM32F10x_FWLib\src\misc.c: 1 warning, 1 error
+compiling stm32f10x_gpio.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\STM32F10x_FWLib\src\stm32f10x_gpio.c: 1 warning, 1 error
+compiling stm32f10x_rcc.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\STM32F10x_FWLib\src\stm32f10x_rcc.c: 1 warning, 1 error
+compiling stm32f10x_tim.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\STM32F10x_FWLib\src\stm32f10x_tim.c: 1 warning, 1 error
+compiling stm32f10x_usart.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\STM32F10x_FWLib\src\stm32f10x_usart.c: 1 warning, 1 error
+compiling stm32f10x_exti.c...
+..\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+..\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+..\STM32F10x_FWLib\src\stm32f10x_exti.c: 1 warning, 1 error
+"..\OBJ\TIMER.axf" - 17 Error(s), 20 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\工程文件\小车1\USER\RTE
+  F:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
